@@ -2,6 +2,6 @@ pipeline:
   mynewtask0:
     image: redis
     commands:
-	- env
+      - env
     when:
-        event: push
+      event: push
